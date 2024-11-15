@@ -1,2 +1,29 @@
 # reactToDoWithLS
-1 Basic Setup a. Set up a simple React project (no need for complex folder structures). b. Use functional components and React hooks. 2 Core Features a. Add a To-Do Item: Allow the user to add a new item to the to-do list through a simple input field and submit button. b. View List: Display the list of to-do items. Each item should show the text and a "Delete" button. c. Delete Item: Allow the user to delete an item from the list. 3 UI/UX a. Basic styling to make the list and input field clear and organized. b. Show a message when there are no items in the list (e.g., "No tasks to display"). 4 Bonus (Optional, if time allows) a. Add a checkbox for each item to mark it as complete. b. Use local storage to persist the to-do list between page reloads.
+
+This is a simple To-Do List application built with React, stored in the `client` folder of this repository. The application allows users to add, delete, and mark tasks as completed. Tasks are saved to the browser's local storage, so they remain available even after refreshing the page.
+
+## Features
+
+- **Add Task**: Type a task in the input field and click "Add" or press Enter to add it to the list.
+- **Delete Task**: Remove tasks by clicking the "Delete" button.
+- **Mark as Complete**: Mark tasks as completed by checking the checkbox, which applies a strikethrough to the task text.
+- **Persistent Storage**: Tasks are stored in local storage to keep them across sessions.
+
+## Setup
+
+To get the project running, follow these steps:
+
+1. Navigate to the `client` folder:
+    ```bash
+    cd reactToDoWithLS/client
+    ```
+
+2. Install the necessary dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm start
+    ```
